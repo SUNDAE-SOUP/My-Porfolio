@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    position: relative; 
+    background: #231F20;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#naviBar {
+    background: #231F20;
+}
+
+#navbarNav {
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    /* position: inherit; */
+    border-radius: 50px;
+    background: #231F20;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center; 
+    z-index: 1;
+}
+
+.navbar-nav {
+    
+    gap: 300px;
+}
+
+.nav-item > a {
+    color: white;
+}
+
+.active {
+    color: gray;
+}
+.navlink {
+    height: 26px; 
+    color: white; 
+    font-size: 20px; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+
+#landingPage {
+    background: #E7DFD8;
+    position: relative;
+    height: 800px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+#introduction {
+    width: 827px; 
+    height: 285px; 
+     
+    top: 230px; 
+    position: absolute
+}
+
+#intro {
+    width: 184px; 
+    height: 57px; 
+    left: 357px; 
+    top: 0px; 
+    position: relative; 
+    color: black; 
+    font-size: 48px;  
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+#myName {
+    width: 827px; 
+    height: 199px;  
+    left: 0px; 
+    top: 86px;
+    position: absolute; 
+    color: #231F20; 
+    font-size: 128px; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+#frontPagePic {
+    width: 404; 
+    height: 411px; 
+    margin-left: 220px;
+    top: 170px; 
+    position: absolute; 
+    border-radius: 522px
+}
+#introduction2 {
+    width: 100%; 
+    height: 100%;
+    padding-bottom: 210px; 
+    padding-right: 177px; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 120px; 
+    margin: 0 auto;
+    color: #F5F5F7;
+    text-align: center;
+}
+
+#introduction3 {
+    margin-top: 179px;
+}
+
+.secondIntro {
+    font-size: 48px; 
+    font-weight: 400; 
+    margin: 0 auto;
+    
+    margin-left: 180px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+#introduction4 {
+    text-align: center;
+    font-size: 100px;
+    margin-left: 180px;
+}
+
+#introduction4 p {
+    /* font-weight: 700; */
+    color: transparent;
+    -webkit-text-stroke: 1px #E7DFD8;
+    background: url(public/fswdBg.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: fswdBg 20s linear infinite;
+}
+@keyframes fswdBg {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+
+#portfolio {
+    background: #E7DFD8;
+    padding-bottom: 50px;
+}
+
+#aboutMe {
+    padding-top: 150px;
+}
+
+.aboutMe {
+    font-size: 68px;
+    font-weight: 500;
+}
+
+#aboutMePic {
+    object-fit: contain;
+    padding: 5px;
+}
+
+#aboutMePic > img {
+
+    width: 100%;
+    border-radius: 20px;
+}
+
+.aboutMeDescriptionText {
+    font-weight: 400;
+    color: #636366;
+    font-size: 16px;
+}
+
+.keySkills {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.lang-image {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.lang-image img {
+    padding-top: 5px;
+    width: 20%;
+    aspect-ratio: 3/3;
+    object-fit: contain;    
+}
+
+.lang-image1 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.lang-image1 img {
+    height: 69px;
+    width: 40%;
+    aspect-ratio: 3/2;
+    object-fit: contain;    
+}
+
+.lang-image p {
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.lang-image1 p {
+    margin-top: 20px;
+}
+
+#gppi-logo {
+    padding: 50px;
+}
+
+#gppi-logo img {
+    height: 96px;
+    width: 231px;
+}
+
+.jobTitle {
+    color: #231F20;
+}
+
+.workYear {
+    font-weight: 400;
+}
+
+.educLogo {
+    padding: 40px;
+}
+
+#educBg {
+    display: none;
+}
+
+.educLogo img {
+    width: 40%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.schoolYear {
+    font-weight: 600;
+}
+
+#portfolioList {
+    background: #E7DFD8;
+
+}
+
+#projectExperience {
+    padding-top: 100px;
+    color: #F5F5F7;
+}
+
+#portfolioBg {
+    background: #231F20;
+    border-radius: 80px;
+}
+
+.colorWhiteText {
+    color: #F5F5F7;
+}
+
+.colorGrayText {
+    color: gray;
+}
+
+.projectLang > img {
+    width: 10%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.thinFontW {
+    font-weight: 100;
+}
+
+
+
+#phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone img {
+    width: 65%;
+    aspect-ratio: 1/2;
+    object-fit: contain;
+}
+
+#socials {
+    margin-right: 200px;
+}
+
+.projectImage {
+    box-shadow: 1px 1px 4px 11px rgba(255, 255, 255, 0);
+    transition: box-shadow 1s;
+    cursor: pointer;
+}
+
+.projectImage:hover {
+    box-shadow: 1px 1px 4px 11px rgba(255, 255, 255, 0.25);
+    transition: 400ms;
+}
+
+.lightShadow {
+    text-shadow: 5px 1px 15px rgba(255, 255, 255, 0.80);
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 920px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
