@@ -167,6 +167,10 @@
     font-weight: 500;
 }
 
+#needHelp {
+    line-height: 90%;
+}
+
 #aboutMePic {
     object-fit: contain;
     padding: 5px;
@@ -260,12 +264,16 @@
 
 #portfolioList {
     background: #E7DFD8;
-
+    margin-top: 50px;
 }
 
 #projectExperience {
     padding-top: 100px;
     color: #F5F5F7;
+}
+#projectExperience > p {
+    
+    font-size: 50px;
 }
 
 #portfolioBg {
@@ -285,6 +293,11 @@
     width: 10%;
     aspect-ratio: 3/2;
     object-fit: contain;
+}
+
+.bootstrapLogo {
+    margin-top: 5px;
+    width: 60px;
 }
 
 .thinFontW {
@@ -342,7 +355,7 @@
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    
 }
 
 .overlay a {
@@ -363,6 +376,225 @@
     top: 20px;
     right: 45px;
     font-size: 60px;
+}
+
+.cSize {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.cSize video {
+    width: 800px;
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    #frontPagePic {
+        display: none;
+    }
+
+    #navbarNav {
+        text-align: center;
+        top: 0;
+        position: fixed;
+        margin: 0 auto;
+        border-radius: 50px;
+        background: transparent;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center; 
+        z-index: 1;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        gap: 0px;
+    }
+
+    #landingPage {
+        background: #E7DFD8;
+        position: relative;
+        height: 650px;
+        
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+
+    #intro {
+        width: 184px; 
+        height: 57px; 
+        left: 270px;
+        top: 0px; 
+        position: relative; 
+        color: black; 
+        font-size: 48px;  
+        font-weight: 400; 
+        word-wrap: break-word
+    }
+
+    #introduction {
+        width: 700px; 
+        height: 285px; 
+         
+        top: 230px; 
+        position: absolute;
+        text-align: center;
+    }
+
+    #myName {
+        margin: 0 auto;
+        width: 700px;
+        color: #231F20; 
+        font-size: 80px; 
+        font-weight: 400; 
+        word-wrap: break-word;
+        left: 20px;
+    }
+
+    
+
+    
+}
+
+@media screen and (max-width: 767px) {
+    #frontPagePic {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        gap: 0px;
+    }
+
+    #navbarNav {
+        text-align: center;
+        top: 0;
+        position: fixed;
+        margin: 0 auto;
+        border-radius: 50px;
+        background: transparent;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center; 
+        z-index: 1;
+    }
+
+    #introduction {
+        width: 700px; 
+        height: 285px; 
+         
+        top: 130px; 
+        position: absolute;
+        text-align: center;
+    }
+
+    #landingPage {
+        background: #E7DFD8;
+        position: relative;
+        height: 650px;
+        
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+    #myName {
+        margin: 0 auto;
+        width: 400px;
+        color: #231F20; 
+        font-size: 80px; 
+        font-weight: 400; 
+        word-wrap: break-word;
+        left: 20px;
+    }
+    #intro {
+        width: 184px; 
+        height: 57px; 
+        left: 120px;
+        top: 0px; 
+        position: relative; 
+        color: black; 
+        font-size: 48px;  
+        font-weight: 400; 
+        word-wrap: break-word
+    }
+
+    #introduction4 {
+        text-align: center;
+        font-size: 50px;
+        margin-left: 70px;
+        width: 300px;
+    }
+    
+    #introduction4 p {
+        
+        color: transparent;
+        -webkit-text-stroke: 1px #E7DFD8;
+        background: url(public/fswdBg.jpg);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: fswdBg 20s linear infinite;
+    }
+
+    #introduction3 {
+        margin-top: 100px;
+        
+    }
+    .secondIntro {
+        font-size: 30px;
+        font-weight: 400; 
+        margin: 0 auto;
+        align-content: center;
+        margin-left: 70px;
+        width: 300px;
+    }
+
+    #introduction2 {
+        width: 100%; 
+        height: 485px;
+        margin: 0 auto;
+        color: #F5F5F7;
+        
+    }
+
+    #aboutMePic {
+        object-fit: contain;
+        padding: 5px;
+    }
+    
+    #aboutMePic > img {
+        margin-left: 8px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    
+    .lang-image1 img {
+        height: 69px;
+        width: 30%;
+        aspect-ratio: 3/4;
+        object-fit: contain;    
+    }
+
+    #projectExperience p {
+        font-size: 30px;
+    }
+    
+    #needHelp {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    .email {
+        margin-right: 118px;
+    }
+
+    
+    
+    
 }
 
 @media screen and (max-height: 920px) {
