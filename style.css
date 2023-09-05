@@ -112,6 +112,7 @@
     margin: 0 auto;
     color: #F5F5F7;
     text-align: center;
+    
 }
 
 #introduction3 {
@@ -123,7 +124,7 @@
     font-weight: 400; 
     margin: 0 auto;
     
-    margin-left: 180px;
+    margin-left: 170px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -134,7 +135,7 @@
 #introduction4 {
     text-align: center;
     font-size: 100px;
-    margin-left: 180px;
+    margin-left: 170px;
 }
 
 #introduction4 p {
@@ -383,8 +384,9 @@
     width: 800px;
 }
 
-.cSize video {
-    width: 800px;
+.projectLine {
+    display: none;
+
 }
 
 /* tablet */
@@ -452,6 +454,7 @@
         word-wrap: break-word;
         left: 20px;
     }
+    
 
     
 
@@ -500,7 +503,7 @@
     }
     #myName {
         margin: 0 auto;
-        width: 400px;
+        width: 350px;
         color: #231F20; 
         font-size: 80px; 
         font-weight: 400; 
@@ -510,7 +513,7 @@
     #intro {
         width: 184px; 
         height: 57px; 
-        left: 120px;
+        left: 110px;
         top: 0px; 
         position: relative; 
         color: black; 
@@ -522,7 +525,7 @@
     #introduction4 {
         text-align: center;
         font-size: 50px;
-        margin-left: 70px;
+        margin-left: 30px;
         width: 300px;
     }
     
@@ -545,7 +548,7 @@
         font-weight: 400; 
         margin: 0 auto;
         align-content: center;
-        margin-left: 70px;
+        margin-left: 30px;
         width: 300px;
     }
 
@@ -564,15 +567,19 @@
     
     #aboutMePic > img {
         margin-left: 8px;
-        width: 400px;
+        width: 350px;
         border-radius: 20px;
     }
     
     .lang-image1 img {
         height: 69px;
-        width: 30%;
+        width: 25%;
         aspect-ratio: 3/4;
         object-fit: contain;    
+    }
+
+    .lang-image1 p {
+        font-size: 15px;
     }
 
     #projectExperience p {
@@ -592,8 +599,27 @@
         margin-right: 118px;
     }
 
+    .projectImageContainer {
+        width: 300px;
+    }
+    
+    .projectLang > img {
+        width: 50px;
+        aspect-ratio: 2/2;
+        object-fit: contain;
+    }
+
+    .projectLine {
+        background: #F5F5F7;
+        height: 2px;
+        display: block;
+    }
     
     
+    .cSize {
+        margin: 0 auto;
+        width: 400px;
+    }
     
 }
 
