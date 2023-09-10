@@ -8,7 +8,6 @@ function closeNav()
     document.getElementById("myNav").style.width = "0%";
 }
 
-
 function openNav2() 
 {
     document.getElementById("myNav2").style.width = "100%";
@@ -38,6 +37,7 @@ function closeNav4()
 {
     document.getElementById("myNav4").style.width = "0%";
 }
+
 
 // Function to add or remove 'p-5' class based on screen width
 function updateP5ClassBasedOnScreenSize() {
@@ -70,3 +70,32 @@ updateP5ClassBasedOnScreenSize();
   
 // Listen for window resize events to update the class
 window.addEventListener("resize", updateP5ClassBasedOnScreenSize);
+
+
+function addClassToNavMobileDisplay() {
+    const navMobileDisplay = document.getElementsByClassName("collapse");
+    const mediaQuery = window.matchMedia("(max-width: 767px)");
+
+    Array.from(navMobileDisplay).forEach(function(nav) {
+        if (mediaQuery.matches) {
+            // If the screen width is 767px or less, add 'mt-5'
+            if (!nav.classList.contains("mt-5")) {
+                nav.classList.add("mt-5");
+                nav.classList.remove("mt-2");
+            }
+        } else {
+            // If the screen width is greater than 767px, remove 'mt-5'
+            if (nav.classList.contains("mt-5")) {
+                nav.classList.remove("mt-5");
+                nav.classList.add("mt-2");
+            }
+        }
+    });
+
+    
+}
+
+addClassToNavMobileDisplay();
+
+window.addEventListener("resize", addClassToNavMobileDisplay);
+

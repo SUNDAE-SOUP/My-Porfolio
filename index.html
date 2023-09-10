@@ -7,16 +7,17 @@
     <title>Rhejoel Joson</title>
     <script src="https://kit.fontawesome.com/ba26bf034c.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-</head>
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  </head>
 <body id="body">
   <div id="landingPage">
-    <nav class="navbar navbar-expand-lg bg-body-#231F20">
-      <div class="container" id="">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md bg-body-#231F20">
+      <div class="w-100 navContainer">
+        <button class="mt-2 navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 10px;">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav"> <!-- set style="gap: 300px" at deskstop size display -->
+        <div class="mt-2 collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="navbarNav2">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#homePage">Home</a>
             </li>
@@ -37,9 +38,9 @@
   
 
     <div class="container text-center" id="homePage">
-      <div class="row text-center">
+      <div class="d-flex justify-content-center align-items-center">
         
-        <div class="col-7 mx-auto" id="introduction">
+        <div class="col" id="introduction">
             <div id="intro">Hi! I'm...</div>
             <div id="myName" >Rhejoel Joson</div>
         </div>
@@ -74,7 +75,7 @@
             <img src="public/RhejoelAboutpic.jpg" alt="RhejoelAboutpic">
           </div>
           <div class="col-md-auto"></div>
-          <div class="col-lg-7">
+          <div class="col-md-7">
             <div class="row-md-auto">
               <p class="aboutMeDescriptionText">
                 Hello there! My name is Rhejoel Joson, 
@@ -390,7 +391,7 @@
                   <div class="row mt-2">
                     <h5 class="colorWhiteText">GitHub:</h5>
                     <div class="row gitLogo">
-                      <a href="https://github.com/kodego-wd48p/KG-CS-FMS" target="_blank" rel="noopener noreferrer"><img src="public/Github-white-loo.png" alt="GitHub" id="contactSection"></a>
+                      <a href="https://github.com/kodego-wd48p/KG-CS-FMS" target="_blank" rel="noopener noreferrer"><img src="public/Github-white-loo.png" alt="GitHub"></a>
                     </div>
                   </div>
                 </div>
@@ -420,7 +421,7 @@
                   <div class="row mt-2">
                     <h5 class="colorWhiteText">GitHub:</h5>
                     <div class="row gitLogo">
-                      <a href="https://github.com/SUNDAE-SOUP/EMS" target="_blank" rel="noopener noreferrer"><img src="public/Github-white-loo.png" alt="GitHub" id="contactSection"></a>
+                      <a href="https://github.com/SUNDAE-SOUP/EMS" target="_blank" rel="noopener noreferrer"><img src="public/Github-white-loo.png" alt="GitHub"></a>
                     </div>
                   </div>
                 </div>
@@ -445,6 +446,7 @@
         
       </div>
 
+      <hr id="contactSection">
 
       <section>
         <div class="container mt-5 p-5">
@@ -458,23 +460,23 @@
                 <h5>Please feel free to contact me</h5>
               </div>
               <div class="row mt-5">
-                <div class="col text-end">
+                <div class="col-6 text-end">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
                     <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
                   </svg>
                 </div>
-                <div class="col text-start">
+                <div class="col-6 text-start">
                   <p>09650548779</p>
                 </div>
               </div>
               <div class="row emailContainer">
-                <div class="col text-end email">
+                <div class="col-6 text-end email">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                   </svg>
                   
                 </div>
-                <div class="col text-start emailName">
+                <div class="col-6 text-start emailName">
                   <p><a href="mailto:rhejoel.joson@outlook.com" style="text-decoration: none;">rhejoel.joson@outlook.com</a></p>
                 </div>
               </div>
