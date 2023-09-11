@@ -406,6 +406,10 @@
         display: none;
     }
 
+    .overlay .closebtn {
+        margin-top: 80px;
+    }
+
     .navContainer {
         z-index: 1000;
         position: fixed;
@@ -486,6 +490,10 @@
 @media screen and (max-width: 767px) {
     #frontPagePic {
         display: none;
+    }
+
+    .overlay .closebtn {
+        margin-top: 80px;
     }
 
     .navContainer {
